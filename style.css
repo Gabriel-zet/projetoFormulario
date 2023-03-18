@@ -1,0 +1,215 @@
+body {
+    font-family: "Roboto,RobotoDraft",Helvetica,Arial,sans-serif;;
+    background-color: rgb(240, 235, 248);
+    margin: 0;
+    padding: 0;
+}
+h1, h2 {
+    margin: 0;
+    padding: 10px;
+    
+}
+h1 {
+    font-size: 36px;
+    color: #333;
+    text-indent: 20%;
+}
+
+h1 [name="titulo"]{
+  text-indent: 70%;
+}
+h2 {
+    font-size: 24px;
+    color: #353434;
+    text-indent: 0%;
+    text-align: left;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fdfdfd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+
+.container-main {
+  border-top: 5;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fdfdfd;
+  border-radius: 15px;
+  height: 100px;
+  width: 600px;
+}
+
+.btn {
+    background-color: rgb(158, 7, 228); /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px 20px; /* Adiciona padding ao botão */
+    text-align: center; /* Centraliza o texto no botão */
+    text-decoration: none; /* Remove a sublinhado do texto */
+    display: inline-block; /* Faz o botão se comportar como um elemento inline */
+    font-size: 16px; /* Define o tamanho da fonte do texto */
+    margin: 10px; /* Adiciona uma margem ao redor do botão */
+    cursor: pointer; /* Altera o cursor para o formato de mão quando o usuário passa o mouse sobre o botão */
+    border-radius: 5px; /* Define o raio da borda do botão */
+    transition-duration: 0.4s; /* Define a duração da transição quando o usuário passa o mouse sobre o botão */
+  }
+  /* Define a aparência do botão quando o usuário passa o mouse sobre ele */
+.btn:hover {
+    background-color: #4b0441;
+    color: white;
+  }
+
+.btn {
+    background-color: #4e4caf; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px 20px; /* Adiciona padding ao botã*/
+    
+} 
+
+
+.btn-center {
+    text-align: center;
+}
+
+  
+.card {
+    display: flex;
+    flex-direction: row;
+    line-height: 1.5;
+  }
+  
+  .content img {
+    width: 15px; /* Define o tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 400px; /* Adiciona uma margem à direita da imagem */
+  }
+  
+  hr {
+    position: relative;
+    border: none;
+    height: 1px;
+    background-color: rgb(158, 7, 228);
+    margin-bottom: 1px;
+    border-radius: 10px;
+}
+ 
+.input-center {
+    /*text-align: center;*/
+    /*border-style: initial;*/
+    width: 800px;
+    
+    
+}
+
+input[type="text"] {
+    border-style: outset;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    border-bottom: black;
+  }
+
+
+nav {
+  background-color: rgb(158, 7, 228);
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20;
+  text-align: left;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #4b0441;
+}
+
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.purple-bar {
+  width: 100%;
+  height: 20px;
+  background-color: purple;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+footer {
+
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footerContainer {
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.privacy-policy a {
+  color: #666;
+  text-decoration: none;
+}
+
+.privacy-policy a:hover {
+  text-decoration: underline;
+}
+
+.fa-circle {
+  color: #666;
+  margin-right: 5px;
+}
+
+.content {
+  display: flex;
+  text-indent: -450px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
+.textCop {
+  flex-basis: 50%;
+  padding-right: 10px;
+}
+
+
+.image img {
+  display: block;
+  max-width: 100%;
+}
